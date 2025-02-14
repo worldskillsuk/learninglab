@@ -1,4 +1,4 @@
-# WorldSkills Web Development Training Repository
+# WorldSkills UK Web Development Training Repository
 
 ### <u>Overview</u>
 This repository is designed to support students and educators in enhancing their web development skills through structured learning resources, assessments, and benchmarks based on WorldSkills UK and WorldSkills International competition standards. The materials within are aligned with the skill levels expected at different competition stages, ensuring a progressive learning path from beginner to international expert level.
@@ -44,6 +44,6 @@ For further inquiries, training support, or collaboration opportunities, please 
   - **WorldSkills UK COP, International Trainer Manager & Expert WorldSkills**: [val.adamescu@port.ac.uk](mailto:val.adamescu@port.ac.uk)
   - **Collaborators**
     - [Lewis Newton](mailto:lewkainew@gmail.com) - *Goyang KR - 2022SE Competitor - Medal of Excellence*
-    - [Mark Kiss](mailto:amarco1154@gmail.com) - *Lyopn FR - 2024 Competitor - Medal of Excellence*
+    - [Mark Kiss](mailto:amarco1154@gmail.com) - *Lyon FR - 2024 Competitor - Medal of Excellence*
     - [Sam Blewit](mailto:up2198694@myport.ac.uk) - *25/26 - UK Squad Member*
     - [Finn Gallagher](mailto:finng1107@gmail.com ) - *25/26 - UK Squad Member*
