@@ -43,7 +43,7 @@ For further inquiries, training support, or collaboration opportunities, please 
   - **WorldSkills UK**: [competitions@worldskillsuk.org](mailto:competitions@worldskillsuk.org)
   - **WorldSkills UK COP, International Trainer Manager & Expert WorldSkills**: [val.adamescu@port.ac.uk](mailto:val.adamescu@port.ac.uk)
   - **Collaborators**
-    - [Lewis Newton](mailto:lewkainew@gmail.com) - *Goyang KR - 2022SE Competitor - Medal of Excellence*
-    - [Mark Kiss](mailto:amarco1154@gmail.com) - *Lyon FR - 2024 Competitor - Medal of Excellence*
+    - [Lewis Newton](mailto:lewkainew@gmail.com) - *Goyang KR - 2022SE Competitor - Medallion for Excellence*
+    - [Mark Kiss](mailto:amarco1154@gmail.com) - *Lyon FR - 2024 Competitor - Medallion for Excellence*
     - [Sam Blewit](mailto:up2198694@myport.ac.uk) - *25/26 - UK Squad Member*
     - [Finn Gallagher](mailto:finng1107@gmail.com ) - *25/26 - UK Squad Member*
