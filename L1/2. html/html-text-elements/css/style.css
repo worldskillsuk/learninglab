@@ -1,0 +1,175 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fefefe;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box {
+    position: relative;
+    padding: 0.75rem;
+    margin: 0.5rem auto;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    box-sizing: border-box;
+}
+
+.box:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    transform: scale(1.01);
+    z-index: 1;
+}
+
+/* Tooltip */
+.box::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: -1.6rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    color: #fff;
+    padding: 6px 10px;
+    font-size: 0.75rem;
+    border-radius: 4px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    z-index: 10;
+}
+
+.box:hover::after {
+    opacity: 1;
+}
+
+/* Labels and Descriptions */
+.label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.description {
+    font-size: 0.95rem;
+}
+
+/* Element Colours */
+.article {
+    background: #ecf5de;
+}
+
+/* Outer wrapper */
+.paragraph {
+    background: #ffecb3;
+}
+
+.strong {
+    background: #f8bbd0;
+}
+
+.em {
+    background: #ffcdd2;
+}
+
+.mark {
+    background: #212121;
+    color: #fff;
+}
+
+.mark mark {
+    background: #fff176;
+    color: #000;
+    padding: 0 4px;
+}
+
+.small {
+    background: #d1c4e9;
+}
+
+.blockquote {
+    background: #cfd8dc;
+    font-style: italic;
+}
+
+.pre {
+    background: #b2ebf2;
+    font-family: monospace;
+    overflow-x: auto;
+}
+
+.code {
+    background: #d7ccc8;
+    font-family: monospace;
+}
+
+/* Heading base + gradient */
+.heading {
+    padding: 0.5rem;
+}
+
+.h1 {
+    background: #b39ddb;
+}
+
+.h2 {
+    background: #c5b3e6;
+}
+
+.h3 {
+    background: #d6c6ef;
+}
+
+.h4 {
+    background: #e4d8f5;
+}
+
+.h5 {
+    background: #f0e9fa;
+}
+
+.h6 {
+    background: #f8f4fc;
+}
+
+.h1 h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.h2 h2 {
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.h3 h3 {
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.h4 h4 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.h5 h5 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.h6 h6 {
+    font-size: 0.85rem;
+    margin: 0;
+}

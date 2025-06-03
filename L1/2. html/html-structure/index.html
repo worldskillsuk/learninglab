@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML Page Structure</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>HTML Document Structure</h1>
+    <p>This diagram shows how HTML elements are nested to form a complete semantic layout.</p>
+
+    <div class="box html" data-tooltip="&lt;html&gt;: Root of the HTML document">
+      <span class="label">&lt;html&gt;</span>
+
+      <div class="box head" data-tooltip="&lt;head&gt;: Metadata, title, and links go here">
+        <span class="label">&lt;head&gt;</span>
+        <p class="description">Holds non-visible data like charset, title, styles, SEO</p>
+
+        <div class="box meta" data-tooltip="&lt;meta&gt;: Charset, viewport, SEO, etc.">
+          <span class="label">&lt;meta&gt;</span>
+          <p class="description">Defines page settings and encoding</p>
+        </div>
+
+        <div class="box title" data-tooltip="&lt;title&gt;: Title in the browser tab">
+          <span class="label">&lt;title&gt;</span>
+          <p class="description">Shown on browser tab or bookmark</p>
+        </div>
+      </div>
+
+      <div class="box body" data-tooltip="&lt;body&gt;: The visible content of your site">
+        <span class="label">&lt;body&gt;</span>
+        <p class="description">Everything visible to the user</p>
+
+        <div class="box header" data-tooltip="&lt;header&gt;: Top section with logo or heading">
+          <span class="label">&lt;header&gt;</span>
+          <p class="description">Introductory section of the page</p>
+        </div>
+
+        <div class="box nav" data-tooltip="&lt;nav&gt;: Navigation menu for site links">
+          <span class="label">&lt;nav&gt;</span>
+          <p class="description">Main navigation links</p>
+        </div>
+
+        <div class="layout-row">
+          <div class="box main" data-tooltip="&lt;main&gt;: Central content area of the document">
+            <span class="label">&lt;main&gt;</span>
+
+            <div class="box section" data-tooltip="&lt;section&gt;: Thematic group of content">
+              <span class="label">&lt;section&gt;</span>
+
+              <div class="box article" data-tooltip="&lt;article&gt;: Self-contained item like blog post">
+                <span class="label">&lt;article&gt;</span>
+                <p class="description">A standalone piece of content</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="box aside" data-tooltip="&lt;aside&gt;: Sidebar with related or extra content">
+            <span class="label">&lt;aside&gt;</span>
+            <p class="description">Extra info, ads, links, or quotes</p>
+          </div>
+        </div>
+
+        <div class="box footer" data-tooltip="&lt;footer&gt;: Bottom section of the page">
+          <span class="label">&lt;footer&gt;</span>
+          <p class="description">Contact info, links, copyright</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

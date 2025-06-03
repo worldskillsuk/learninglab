@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form Elements</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>HTML Form Elements</h1>
+      <p>
+        This visual shows real HTML form elements with proper semantic nesting
+        and tooltips.
+      </p>
+
+      <form
+        class="box form"
+        data-tooltip="&lt;form&gt;: Used to collect and submit user input"
+      >
+        <span class="label">&lt;form&gt;</span>
+
+        <fieldset
+          class="box fieldset"
+          data-tooltip="&lt;fieldset&gt;: Groups related form fields"
+        >
+          <legend
+            class="box legend"
+            data-tooltip="&lt;legend&gt;: Title for grouped controls"
+          >
+            <span class="label">&lt;legend&gt;</span>
+            Personal Information
+          </legend>
+
+          <div class="box group">
+            <label
+              for="name"
+              class="box label"
+              data-tooltip="&lt;label&gt;: Label for name input"
+            >
+              <span class="label">&lt;label for="name"&gt;</span>
+              Name:
+            </label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="box input"
+              data-tooltip="&lt;input type='text'&gt;: Single-line text input"
+              placeholder="Enter your name"
+            />
+          </div>
+
+          <div class="box group">
+            <label
+              for="email"
+              class="box label"
+              data-tooltip="&lt;label&gt;: Label for email input"
+            >
+              <span class="label">&lt;label for="email"&gt;</span>
+              Email:
+            </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="box input"
+              data-tooltip="&lt;input type='email'&gt;: Email input with validation"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="box group">
+            <label
+              for="phone"
+              class="box label"
+              data-tooltip="&lt;label&gt;: Label for phone input"
+            >
+              <span class="label">&lt;label for="phone"&gt;</span>
+              Phone:
+            </label>
+            <input type="tel" id="phone" name="phone"
+       pattern="[\+]?[\d\s\-()]{7,}" 
+       title="Include digits, spaces, + or ()" 
+       placeholder="+44 1234 567890"
+       class="box input"
+       data-tooltip="&lt;input type='tel'&gt;: Supports international format" />
+
+          </div>
+
+          <div class="box group">
+            <label
+              for="comments"
+              class="box label"
+              data-tooltip="&lt;label&gt;: Label for textarea"
+            >
+              <span class="label">&lt;label for="comments"&gt;</span>
+              Comments:
+            </label>
+            <textarea
+              id="comments"
+              name="comments"
+              class="box textarea"
+              data-tooltip="&lt;textarea&gt;: Multi-line text area"
+              placeholder="Write something..."
+            ></textarea>
+          </div>
+
+          <div class="box group">
+            <label
+              for="role"
+              class="box label"
+              data-tooltip="&lt;label&gt;: Label for dropdown"
+            >
+              <span class="label">&lt;label for="role"&gt;</span>
+              Role:
+            </label>
+            <select
+              id="role"
+              name="role"
+              class="box select"
+              data-tooltip="&lt;select&gt;: Dropdown menu for options"
+            >
+              <option value="student">&lt;option&gt; Student</option>
+              <option value="teacher">&lt;option&gt; Teacher</option>
+            </select>
+          </div>
+        </fieldset>
+
+        <div
+          class="box button-container"
+          data-tooltip="&lt;button&gt;: Click to submit form"
+        >
+          <button type="submit" class="box button">
+            <span class="label">&lt;button&gt;</span>Submit
+          </button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

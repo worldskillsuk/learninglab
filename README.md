@@ -41,7 +41,7 @@ For further inquiries, training support, or collaboration opportunities, please 
 For further inquiries, training support, or collaboration opportunities, please reach out to WorldSkills UK or WorldSkills International representatives.
 
   - **WorldSkills UK**: [competitions@worldskillsuk.org](mailto:competitions@worldskillsuk.org)
-  - **WorldSkills UK COP, International Trainer Manager & Expert WorldSkills**: [val.adamescu@port.ac.uk](mailto:val.adamescu@port.ac.uk)
+  - **WorldSkills UK COP, International Trainer Manager & Expert Lead WorldSkills**: [val.adamescu@port.ac.uk](mailto:val.adamescu@port.ac.uk)
   - **Collaborators**
     - [Lewis Newton](mailto:lewkainew@gmail.com) - *Goyang KR - 2022SE Competitor - Medallion for Excellence*
     - [Mark Kiss](mailto:amarco1154@gmail.com) - *Lyon FR - 2024 Competitor - Medallion for Excellence*

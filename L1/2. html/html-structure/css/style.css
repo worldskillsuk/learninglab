@@ -1,0 +1,150 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fefefe;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.25rem;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Base box structure */
+.box {
+    position: relative;
+    padding: 1.5rem;
+    margin: 0.5rem auto;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    box-sizing: border-box;
+}
+
+.box:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+    transform: scale(1.02);
+    z-index: 2;
+}
+
+/* Tooltip */
+.box::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: -1.6rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    color: #fff;
+    padding: 6px 10px;
+    font-size: 0.75rem;
+    white-space: nowrap;
+    border-radius: 4px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    z-index: 10;
+}
+
+.box:hover::after {
+    opacity: 1;
+}
+
+/* Colour-coded elements */
+.html {
+    background: #e0f7ff;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.head {
+    background: #c7f3d9;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.meta,
+.title {
+    background: #fff7cc;
+    margin-top: 0.5rem;
+}
+
+.body {
+    background: #f0e9ff;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin-top: 1rem;
+}
+
+.header {
+    background: #ffcdd2;
+}
+
+.nav {
+    background: #fff2b3;
+    margin-top: 0.5rem;
+}
+
+.layout-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.main {
+    background: #dcedc8;
+    flex: 2;
+    min-width: 280px;
+}
+
+.section {
+    background: #ffe0b2;
+    margin-top: 0.5rem;
+    padding: 1rem;
+}
+
+.article {
+    background: #ffccbc;
+    margin-top: 0.5rem;
+    padding: 1rem;
+}
+
+.aside {
+    background: #b3e5fc;
+    flex: 1;
+    min-width: 200px;
+    padding: 1rem;
+}
+
+.footer {
+    background: #cfd8dc;
+    margin-top: 0.5rem;
+}
+
+/* Labels and inner descriptions */
+.label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+    font-size: 1.05rem;
+}
+
+.description {
+    font-size: 0.9rem;
+    color: #333;
+}

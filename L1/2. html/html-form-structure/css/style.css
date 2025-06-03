@@ -1,0 +1,154 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    background: #f5f7fa;
+    margin: 0;
+    padding: 0;
+    color: #2c3e50;
+}
+
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0.25rem;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+/* Box structure */
+.box {
+    position: relative;
+    padding: 1rem;
+    margin: 0.75rem auto;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease;
+}
+
+.box:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Tooltip */
+.box::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: -1.8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #2c3e50;
+    color: #fff;
+    font-size: 0.75rem;
+    padding: 6px 10px;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    z-index: 10;
+}
+
+.box:hover::after {
+    opacity: 1;
+}
+
+/* Label */
+.label {
+    font-weight: bold;
+    display: block;
+    font-size: 0.85rem;
+    color: #000;
+    background: #f4f4f4;
+    margin-bottom: 0.25rem;
+}
+
+/* Description */
+.description {
+    font-size: 0.95rem;
+    color: #444;
+}
+
+/* Input styling */
+input,
+textarea,
+select,
+button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 0.5rem;
+    font-family: inherit;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #4a90e2;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+}
+
+/* Field container styles */
+.form {
+    background: #e8f0fe;
+}
+
+.fieldset {
+    border: 1px solid #d0d7de;
+    background: #f9f9f9;
+}
+
+.legend {
+    background: #2a70b8;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 1rem;
+    letter-spacing: 0.25px;
+}
+
+.group {
+    background: #fefefe;
+    text-align: left;
+    padding: 1rem;
+    border: 1px solid #eee;
+}
+
+/* Button styles */
+.button-container {
+    text-align: center;
+    background: transparent;
+}
+
+.button {
+    background: #1e8449;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background: #166437;
+}

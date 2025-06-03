@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The CSS Box Model</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>The CSS Box Model</h1>
+    <p>
+      Every HTML element is a box! This diagram shows the four parts of the box model:
+      <strong>Content, Padding, Border, and Margin</strong>.
+    </p>
+
+    <div class="margin-box box" data-tooltip="Margin: space outside the border. It pushes elements away from each other.">
+      <span class="label">MARGIN</span>
+      <p class="description">Transparent space outside the border, separating this element from others.</p>
+
+      <div class="border-box box" data-tooltip="Border: surrounds padding and content. You can control thickness, colour, and style.">
+        <span class="label">BORDER</span>
+        <p class="description">The line around the padding and content. It has width, style, and color.</p>
+
+        <div class="padding-box box" data-tooltip="Padding: space between the content and border. Fills with the background colour.">
+          <span class="label">PADDING</span>
+          <p class="description">Space between the content and the border. It takes the background color of the element.</p>
+
+          <div class="content-box box" data-tooltip="Content: this is where your text, images or media go.">
+            <span class="label">CONTENT</span>
+            <p class="content">This is where your actual text, images, or other media reside.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
